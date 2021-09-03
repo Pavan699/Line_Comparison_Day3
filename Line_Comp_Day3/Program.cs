@@ -23,6 +23,8 @@ namespace Line_Comp_Day3
             Console.WriteLine("Length Of the coordinates ({0},{1}) and ({2},{3}) is : {4}", x3, y3, x4, y4, length_Two);
 
             Console.WriteLine("Equals() Method : "+length_One.Equals(length_Two));
+
+            Console.WriteLine("CompareTo() Method : " + length_One.CompareTo(length_Two));
         }
     }
 }
